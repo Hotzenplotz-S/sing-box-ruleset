@@ -108,8 +108,17 @@ https://cdn.jsdelivr.net/gh/Hotzenplotz-S/sing-box-ruleset@main/my-direct.json
 https://cdn.jsdelivr.net/gh/Hotzenplotz-S/sing-box-ruleset@main/my-proxy.json
 ```
 
-> jsDelivr 会缓存 `@main` 的内容，改动**不会立即生效**。
-> 需要即时生效时，把 `@main` 换成具体 commit hash。
+> ### ⚠️ 缓存行为（实测响应头）
+>
+> | 引用形式 | `Cache-Control` | 含义 |
+> |---|---|---|
+> | `@main` | `public, max-age=604800, s-maxage=43200` | **边缘节点缓存 12 小时**，改动最长 12 小时后生效 |
+> | `@<commit>` | `public, max-age=31536000, immutable` | 内容确定，永久缓存 |
+>
+> 实测：提交新版本后立刻拉 `@main`，返回的仍是**旧内容**；同一时刻拉 `@<commit>` 立即是新内容。
+> 加查询串（`?v=123`）**不能**绕过该缓存。
+>
+> **需要立即生效时**，把配置里的 `@main` 换成具体 commit hash。
 
 ## 维护流程
 
