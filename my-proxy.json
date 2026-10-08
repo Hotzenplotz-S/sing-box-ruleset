@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "dns.google",
+        "dns.google.com"
+      ],
+      "domain_suffix": [
+        "bing.com"
+      ],
+      "domain_keyword": []
+    }
+  ]
+}
