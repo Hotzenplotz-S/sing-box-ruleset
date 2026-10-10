@@ -2,7 +2,9 @@
   "version": 1,
   "rules": [
     {
-      "domain": [],
+      "domain": [
+        "compass.20151226.xyz"
+      ],
       "domain_suffix": [
         "local",
         "qq.com"
