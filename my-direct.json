@@ -7,9 +7,12 @@
       ],
       "domain_suffix": [
         "local",
-        "qq.com"
+        "qq.com",
+        "95ytx.com"
       ],
-      "domain_keyword": []
+      "domain_keyword": [
+        "workbuddy"
+      ]
     }
   ]
 }
