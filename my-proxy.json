@@ -7,7 +7,9 @@
         "dns.google.com"
       ],
       "domain_suffix": [
-        "bing.com"
+        "bing.com",
+        "workbuddy.ai",
+        "codebuddy.ai"
       ],
       "domain_keyword": []
     }
