@@ -8,11 +8,10 @@
       "domain_suffix": [
         "local",
         "qq.com",
-        "95ytx.com"
-      ],
-      "domain_keyword": [
+        "95ytx.com",
         "stardesk.net"
-      ]
+      ],
+      "domain_keyword": []
     }
   ]
 }
