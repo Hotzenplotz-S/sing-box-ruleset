@@ -3,7 +3,8 @@
   "rules": [
     {
       "domain": [
-        "compass.20151226.xyz"
+        "compass.20151226.xyz",
+        "129.226.148.70"
       ],
       "domain_suffix": [
         "local",
