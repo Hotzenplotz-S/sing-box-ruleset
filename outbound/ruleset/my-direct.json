@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "compass.20151226.xyz"
+      ],
+      "domain_suffix": [
+        "local",
+        "qq.com",
+        "95ytx.com",
+        "stardesk.net"
+      ],
+      "domain_keyword": []
+    }
+  ]
+}
